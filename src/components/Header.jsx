@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { BsMenuButtonWide } from 'react-icons/bs';
 import { GiCancel } from 'react-icons/gi';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -27,11 +28,7 @@ const Header = () => {
 
       {/* Hamburger menu */}
       <div onClick={handleClick} className="md:hidden z-10">
-        {!menu ? (
-          <BsMenuButtonWide className="w-6 h-6" />
-        ) : (
-          <GiCancel className="w-6 h-6" />
-        )}
+        {!menu ? <BsMenuButtonWide size={28} /> : <GiCancel size={28} />}
       </div>
       {/* Hamburger menu end */}
 
@@ -52,7 +49,30 @@ const Header = () => {
       {/* Mobile Menu end */}
 
       {/* Social */}
-      <div className="hidden"></div>
+      <div className="hidden lg:flex fixed flex-col top-[35%]">
+        <ul>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-10px] duration-300 bg-blue-500">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://www.linkedin.com/in/md-hasibulalam/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-10px] duration-300 bg-gray-500">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://github.com/hasibmiraz"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
       {/* Social end */}
     </div>
   );
