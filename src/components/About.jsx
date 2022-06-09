@@ -12,6 +12,19 @@ const About = () => {
           </div>
           <div></div>
         </div>
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+          <div className="sm:text-right text-4xl font-bold">
+            <p>Hi, I'm Md Hasibul Alam. Full stack web developer</p>
+          </div>
+          <div>
+            <p>
+              I am very much passionate about web development. I have been
+              learning web development for about 1 year. I always try to learn
+              new things and try to code my application in an efficient way. So
+              that I can make a better output for my project.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
