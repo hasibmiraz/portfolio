@@ -6,7 +6,7 @@ import ProjectTwo from './ProjectTwo';
 const Projects = () => {
   return (
     <div
-      name="Projects"
+      name="projects"
       className="bg-[#0a192f] w-full md:h-screen text-gray-300"
     >
       <div className="max-w-1400 mx-auto p-4 flex flex-col justify-center w-full h-full">

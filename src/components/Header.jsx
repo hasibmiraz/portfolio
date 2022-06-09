@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BsMenuButtonWide } from 'react-icons/bs';
 import { GiCancel } from 'react-icons/gi';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -18,11 +19,31 @@ const Header = () => {
 
       {/* Desktop menu */}
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li>
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to="projects" smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
       {/* Desktop menu end */}
 
