@@ -61,11 +61,36 @@ const Header = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#0a193c] flex md:hidden flex-col justify-center items-center'
         }
       >
-        <li className="py-5 text-4xl">Home</li>
-        <li className="py-5 text-4xl">About</li>
-        <li className="py-5 text-4xl">Skills</li>
-        <li className="py-5 text-4xl">Projects</li>
-        <li className="py-5 text-4xl">Contact</li>
+        <li className="py-5 text-4xl">
+          <Link to="home" smooth={true} duration={500} onClick={handleClick}>
+            Home
+          </Link>
+        </li>
+        <li className="py-5 text-4xl">
+          <Link to="about" smooth={true} duration={500} onClick={handleClick}>
+            About
+          </Link>
+        </li>
+        <li className="py-5 text-4xl">
+          <Link to="skills" smooth={true} duration={500} onClick={handleClick}>
+            Skills
+          </Link>
+        </li>
+        <li className="py-5 text-4xl">
+          <Link
+            to="projects"
+            smooth={true}
+            duration={500}
+            onClick={handleClick}
+          >
+            Projects
+          </Link>
+        </li>
+        <li className="py-5 text-4xl">
+          <Link to="contact" smooth={true} duration={500} onClick={handleClick}>
+            Contact
+          </Link>
+        </li>
       </ul>
       {/* Mobile Menu end */}
 
