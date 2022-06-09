@@ -3,7 +3,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 
 const Home = () => {
   return (
-    <div name="home" className="bg-[#0a193c] w-full h-screen">
+    <div name="home" className="w-full h-screen bg-[#0a193c]">
       {/* body */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-pink-600">Greetings, my name is</p>
