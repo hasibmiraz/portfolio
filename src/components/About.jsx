@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="about" className="w-full h-screen bg-slate-600 text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
@@ -19,9 +19,12 @@ const About = () => {
           <div>
             <p>
               I am very much passionate about web development. I have been
-              learning web development for about 1 year. I always try to learn
-              new things and try to code my application in an efficient way. So
-              that I can make a better output for my project.
+              learning web development for about 1 year.
+            </p>
+            <p>
+              I always try to learn new things and try to code my application in
+              an efficient way. So that I can make a better output for my
+              project.
             </p>
           </div>
         </div>
