@@ -20,27 +20,57 @@ const Header = () => {
       {/* Desktop menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <Link
+            to="home"
+            activeClass="active"
+            smooth={true}
+            spy={true}
+            duration={500}
+          >
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
+          <Link
+            to="about"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link
+            to="skills"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
             Skills
           </Link>
         </li>
         <li>
-          <Link to="projects" smooth={true} duration={500}>
+          <Link
+            to="projects"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
             Projects
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          <Link
+            to="contact"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
             Contact
           </Link>
         </li>
