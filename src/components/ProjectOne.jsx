@@ -36,7 +36,7 @@ const ProjectOne = () => {
       {/* Project Details */}
       <input type="checkbox" id="project-1" className="modal-toggle" />
       <div className="modal">
-        <div className="modal-box w-11/12 max-w-5xl">
+        <div className="modal-box max-w-5xl">
           <label
             htmlFor="project-1"
             className="btn btn-sm btn-circle absolute right-2 top-2"
