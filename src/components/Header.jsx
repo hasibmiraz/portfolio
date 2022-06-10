@@ -11,7 +11,7 @@ const Header = () => {
   const handleClick = () => setMenu(!menu);
 
   return (
-    <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-gray-500 text-gray-300 shadow-md">
+    <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-gray-600 text-gray-300 shadow-md">
       <div>
         <h2 className="text-3xl duration-300 px-4 py-2">
           <img src={Signature} alt="Signature" className="h-12" />
