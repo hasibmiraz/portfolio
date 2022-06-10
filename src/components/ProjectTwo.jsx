@@ -85,6 +85,10 @@ const ProjectTwo = () => {
                   <BsTools className="inline" size={20} /> Mongoose
                 </li>
                 <li>
+                  <BsTools className="inline" size={20} /> Firebase
+                  Authentication
+                </li>
+                <li>
                   <BsTools className="inline" size={20} /> JsonWebToken
                 </li>
                 <li>

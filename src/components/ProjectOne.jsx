@@ -76,6 +76,9 @@ const ProjectOne = () => {
                 <BsTools className="inline" size={20} /> ExpressJS
               </li>
               <li>
+                <BsTools className="inline" size={20} /> Firebase Authentication
+              </li>
+              <li>
                 <BsTools className="inline" size={20} /> MongoDB
               </li>
               <li>
