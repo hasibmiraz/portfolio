@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="bg-[#0a192f] w-full md:h-screen text-gray-300"
+      className="bg-slate-600 w-full md:h-screen text-gray-300"
     >
       <div className="max-w-1400 mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-center">
