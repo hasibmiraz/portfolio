@@ -55,6 +55,17 @@ const Header = () => {
         </li>
         <li>
           <Link
+            to="blogs"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Blogs
+          </Link>
+        </li>
+        <li>
+          <Link
             to="projects"
             activeClass="active"
             spy={true}

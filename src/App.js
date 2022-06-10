@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About';
+import Blogs from './components/Blogs';
 import ContactForm from './components/ContactForm';
 import Header from './components/Header';
 import Home from './components/Home';
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Blogs />
       <Projects />
       <ContactForm />
     </div>
