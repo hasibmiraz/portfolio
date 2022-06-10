@@ -35,6 +35,12 @@ const ProjectOne = () => {
       <input type="checkbox" id="project-1" class="modal-toggle" />
       <div class="modal">
         <div class="modal-box w-11/12 max-w-5xl">
+          <label
+            for="project-1"
+            class="btn btn-sm btn-circle absolute right-2 top-2"
+          >
+            ✕
+          </label>
           <h3 class="font-bold text-lg">Details of Bicycle4Life</h3>
           <p class="py-4 text-xl text-center">Preview</p>
           <div className="grid grid-cols-1 md:grid-cols-3 mx-auto gap-3">
@@ -80,6 +86,9 @@ const ProjectOne = () => {
               </li>
               <li>
                 <BsTools className="inline" size={20} /> MongoDB
+              </li>
+              <li>
+                <BsTools className="inline" size={20} /> Heroku
               </li>
               <li>
                 <BsTools className="inline" size={20} /> JsonWebToken

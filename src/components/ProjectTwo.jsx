@@ -35,6 +35,12 @@ const ProjectTwo = () => {
         <input type="checkbox" id="project-2" class="modal-toggle" />
         <div class="modal">
           <div class="modal-box w-11/12 max-w-5xl">
+            <label
+              for="project-2"
+              class="btn btn-sm btn-circle absolute right-2 top-2"
+            >
+              ✕
+            </label>
             <h3 class="font-bold text-lg">Details of Gadget World</h3>
             <p class="py-4 text-xl text-center">Preview</p>
             <div className="grid grid-cols-1 md:grid-cols-3 mx-auto gap-3">
@@ -87,6 +93,9 @@ const ProjectTwo = () => {
                 <li>
                   <BsTools className="inline" size={20} /> Firebase
                   Authentication
+                </li>
+                <li>
+                  <BsTools className="inline" size={20} /> Heroku
                 </li>
                 <li>
                   <BsTools className="inline" size={20} /> JsonWebToken
