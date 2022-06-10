@@ -33,7 +33,7 @@ const ProjectThree = () => {
 
         {/* Project Details */}
         <input type="checkbox" id="project-3" className="modal-toggle" />
-        <div className="modal  sm:modal-middle">
+        <div className="modal modal-bottom sm:modal-middle">
           <div className="modal-box max-w-5xl">
             <label
               htmlFor="project-3"
