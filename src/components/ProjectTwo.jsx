@@ -101,11 +101,8 @@ const ProjectTwo = () => {
                   <BsTools className="inline" size={20} /> JsonWebToken
                 </li>
                 <li>
-                  <BsTools className="inline" size={20} /> DaisyUI(Component
-                  Library Of Tailwind)
-                </li>
-                <li>
-                  <BsTools className="inline" size={20} /> React Query
+                  <BsTools className="inline" size={20} /> Tailwind
+                  Elements(Component Library Of Tailwind)
                 </li>
                 <li>
                   <BsTools className="inline" size={20} /> React Router
