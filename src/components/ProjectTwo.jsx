@@ -26,25 +26,25 @@ const ProjectTwo = () => {
         </span>
         <div className="pt-8 text-center">
           <label
-            for="project-2"
-            class="text-center rounded-md px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg cursor-pointer"
+            htmlFor="project-2"
+            className="text-center rounded-md px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg cursor-pointer"
           >
             Details
           </label>
         </div>
 
         {/* Project Details */}
-        <input type="checkbox" id="project-2" class="modal-toggle" />
-        <div class="modal">
-          <div class="modal-box w-11/12 max-w-5xl">
+        <input type="checkbox" id="project-2" className="modal-toggle" />
+        <div className="modal">
+          <div className="modal-box w-11/12 max-w-5xl">
             <label
-              for="project-2"
-              class="btn btn-sm btn-circle absolute right-2 top-2"
+              htmlFor="project-2"
+              className="btn btn-sm btn-circle absolute right-2 top-2"
             >
               ✕
             </label>
-            <h3 class="font-bold text-lg">Details of Gadget World</h3>
-            <p class="py-4 text-xl text-center">Preview</p>
+            <h3 className="font-bold text-lg">Details of Gadget World</h3>
+            <p className="py-4 text-xl text-center">Preview</p>
             <div className="grid grid-cols-1 md:grid-cols-3 mx-auto gap-3">
               <img src={Img1} alt="" />
               <img src={Img2} alt="" />
@@ -137,8 +137,8 @@ const ProjectTwo = () => {
                 Server Side Code <GiServerRack className="ml-2" size={20} />
               </a>
             </div>
-            <div class="modal-action">
-              <label for="project-2" class="btn">
+            <div className="modal-action">
+              <label htmlFor="project-2" className="btn">
                 Ok
               </label>
             </div>

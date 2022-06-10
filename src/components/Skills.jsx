@@ -10,7 +10,7 @@ import Tailwind from '../assets/tailwind.png';
 
 const Skills = () => {
   return (
-    <div name="skills" className="h-screen w-full bg-slate-700">
+    <div name="skills" className="w-full h-screen bg-slate-700">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full text-gray-300">
         <div>
           <p
@@ -24,7 +24,7 @@ const Skills = () => {
             project
           </p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="w-full grid grid-cols-3 sm:grid-cols-4 gap-4 text-center py-8">
           <div
             data-aos="flip-left"
             className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-2"

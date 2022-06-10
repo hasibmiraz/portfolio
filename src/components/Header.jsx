@@ -3,7 +3,6 @@ import { BsMenuButtonWide } from 'react-icons/bs';
 import { GiCancel } from 'react-icons/gi';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-scroll';
-import Signature from '../assets/Signature.png';
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -13,9 +12,7 @@ const Header = () => {
   return (
     <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-gray-600 text-gray-300 shadow-md">
       <div>
-        <h2 className="text-3xl duration-300 px-4 py-2">
-          <img src={Signature} alt="Signature" className="h-12" />
-        </h2>
+        <h2 className="text-3xl w-full duration-300 px-4 py-2">Md Hasibul</h2>
       </div>
 
       {/* Desktop menu */}
@@ -23,7 +20,7 @@ const Header = () => {
         <li>
           <Link
             to="home"
-            activeClass="active"
+            activeclassName="active"
             smooth={true}
             spy={true}
             duration={500}
@@ -34,7 +31,7 @@ const Header = () => {
         <li>
           <Link
             to="about"
-            activeClass="active"
+            activeclassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -45,7 +42,7 @@ const Header = () => {
         <li>
           <Link
             to="skills"
-            activeClass="active"
+            activeclassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -56,7 +53,7 @@ const Header = () => {
         <li>
           <Link
             to="blogs"
-            activeClass="active"
+            activeclassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -67,7 +64,7 @@ const Header = () => {
         <li>
           <Link
             to="projects"
-            activeClass="active"
+            activeclassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -78,7 +75,7 @@ const Header = () => {
         <li>
           <Link
             to="contact"
-            activeClass="active"
+            activeclassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -106,7 +103,7 @@ const Header = () => {
         <li className="py-5 text-4xl">
           <Link
             to="home"
-            activeClass="active"
+            activeclassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -118,7 +115,7 @@ const Header = () => {
         <li className="py-5 text-4xl">
           <Link
             to="about"
-            activeClass="active"
+            activeclassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -130,7 +127,7 @@ const Header = () => {
         <li className="py-5 text-4xl">
           <Link
             to="skills"
-            activeClass="active"
+            activeclassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -142,7 +139,7 @@ const Header = () => {
         <li className="py-5 text-4xl">
           <Link
             to="projects"
-            activeClass="active"
+            activeclassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -154,7 +151,7 @@ const Header = () => {
         <li className="py-5 text-4xl">
           <Link
             to="contact"
-            activeClass="active"
+            activeclassName="active"
             spy={true}
             smooth={true}
             duration={500}
