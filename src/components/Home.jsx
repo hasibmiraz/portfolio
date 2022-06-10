@@ -7,11 +7,19 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-slate-700">
       {/* body */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-pink-600 text-xl font-bold">Greetings, my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        <p data-aos="fade-down" className="text-pink-600 text-xl font-bold">
+          Greetings, my name is
+        </p>
+        <h1
+          data-aos="fade-right"
+          className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]"
+        >
           Md Hasibul Alam
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-white">
+        <h2
+          data-aos="fade-left"
+          className="text-4xl sm:text-7xl font-bold text-white"
+        >
           I'm a Full Stack Developer.
         </h2>
         <p className="text-white text-base py-4 max-w-[700px]">
@@ -21,7 +29,10 @@ const Home = () => {
         </p>
         <div>
           <a href={Resume} download="Resume.pdf">
-            <button className="text-white group text-center border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-200">
+            <button
+              data-aos="fade-up-right"
+              className="text-white group text-center border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-200"
+            >
               See Resume
               <span className="group-hover:rotate-180 duration-300">
                 <AiOutlineArrowRight size={20} className="ml-2" />

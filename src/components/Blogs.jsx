@@ -1,4 +1,5 @@
 import React from 'react';
+import TypeAnimation from 'react-type-animation';
 
 const Blogs = () => {
   return (
@@ -13,7 +14,13 @@ const Blogs = () => {
           <div></div>
         </div>
         <div>
-          <h1 className="text-6xl text-white text-center">Coming Soon...</h1>
+          <TypeAnimation
+            cursor={false}
+            sequence={['Coming Soon...', 2000, '']}
+            wrapper="h1"
+            className="text-6xl text-white text-center z-10"
+            repeat={3}
+          />
         </div>
       </div>
     </div>

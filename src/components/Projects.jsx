@@ -11,7 +11,10 @@ const Projects = () => {
     >
       <div className="max-w-1400 mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-center">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+          <p
+            data-aos="fade-down"
+            className="text-4xl font-bold inline border-b-4 border-pink-600"
+          >
             Projects
           </p>
           <p className="py-6">

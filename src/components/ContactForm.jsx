@@ -20,6 +20,7 @@ const ContactForm = () => {
           </p>
         </div>
         <input
+          data-aos="fade-right"
           type="text"
           name="name"
           placeholder="Name"
@@ -27,6 +28,7 @@ const ContactForm = () => {
           required
         />
         <input
+          data-aos="fade-left"
           type="email"
           name="email"
           placeholder="Email"
@@ -34,6 +36,7 @@ const ContactForm = () => {
           required
         />
         <textarea
+          data-aos="fade-right"
           type="text"
           name="message"
           placeholder="Message"

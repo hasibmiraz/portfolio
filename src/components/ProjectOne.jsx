@@ -15,6 +15,8 @@ import { GiServerRack } from 'react-icons/gi';
 const ProjectOne = () => {
   return (
     <div
+      data-aos="fade-up"
+      data-aos-duration="800"
       style={{ backgroundImage: `url(${Bicycle})` }}
       className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
     >
