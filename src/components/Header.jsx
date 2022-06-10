@@ -3,6 +3,7 @@ import { BsMenuButtonWide } from 'react-icons/bs';
 import { GiCancel } from 'react-icons/gi';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import Signature from '../assets/Signature.png';
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -10,10 +11,10 @@ const Header = () => {
   const handleClick = () => setMenu(!menu);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a193c] text-gray-300 shadow-md">
+    <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-gray-500 text-gray-300 shadow-md">
       <div>
-        <h2 className="text-3xl cursor-pointer hover:bg-gray-600 duration-300 px-4 py-2">
-          Md Hasibul Alam
+        <h2 className="text-3xl duration-300 px-4 py-2">
+          <img src={Signature} alt="Signature" className="h-12" />
         </h2>
       </div>
 
@@ -92,23 +93,46 @@ const Header = () => {
         }
       >
         <li className="py-5 text-4xl">
-          <Link to="home" smooth={true} duration={500} onClick={handleClick}>
+          <Link
+            to="home"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={handleClick}
+          >
             Home
           </Link>
         </li>
         <li className="py-5 text-4xl">
-          <Link to="about" smooth={true} duration={500} onClick={handleClick}>
+          <Link
+            to="about"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={handleClick}
+          >
             About
           </Link>
         </li>
         <li className="py-5 text-4xl">
-          <Link to="skills" smooth={true} duration={500} onClick={handleClick}>
+          <Link
+            to="skills"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={handleClick}
+          >
             Skills
           </Link>
         </li>
         <li className="py-5 text-4xl">
           <Link
             to="projects"
+            activeClass="active"
+            spy={true}
             smooth={true}
             duration={500}
             onClick={handleClick}
@@ -117,7 +141,14 @@ const Header = () => {
           </Link>
         </li>
         <li className="py-5 text-4xl">
-          <Link to="contact" smooth={true} duration={500} onClick={handleClick}>
+          <Link
+            to="contact"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={handleClick}
+          >
             Contact
           </Link>
         </li>
