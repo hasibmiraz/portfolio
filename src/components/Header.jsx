@@ -10,9 +10,11 @@ const Header = () => {
   const handleClick = () => setMenu(!menu);
 
   return (
-    <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-gray-600 text-gray-300 shadow-md">
+    <div className="w-full h-[70px] flex justify-between items-center px-4 bg-gray-600 text-gray-300 shadow-md">
       <div>
-        <h2 className="text-3xl w-full duration-300 px-4 py-2">Md Hasibul</h2>
+        <h2 className="text-3xl w-full duration-300 px-4 py-2">
+          Md Hasibul Alam
+        </h2>
       </div>
 
       {/* Desktop menu */}
@@ -20,7 +22,7 @@ const Header = () => {
         <li>
           <Link
             to="home"
-            activeclassName="active"
+            activeClassName="active"
             smooth={true}
             spy={true}
             duration={500}
@@ -31,7 +33,7 @@ const Header = () => {
         <li>
           <Link
             to="about"
-            activeclassName="active"
+            activeClassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -42,7 +44,7 @@ const Header = () => {
         <li>
           <Link
             to="skills"
-            activeclassName="active"
+            activeClassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -53,7 +55,7 @@ const Header = () => {
         <li>
           <Link
             to="blogs"
-            activeclassName="active"
+            activeClassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -64,7 +66,7 @@ const Header = () => {
         <li>
           <Link
             to="projects"
-            activeclassName="active"
+            activeClassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -75,7 +77,7 @@ const Header = () => {
         <li>
           <Link
             to="contact"
-            activeclassName="active"
+            activeClassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -103,7 +105,7 @@ const Header = () => {
         <li className="py-5 text-4xl">
           <Link
             to="home"
-            activeclassName="active"
+            activeClassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -115,7 +117,7 @@ const Header = () => {
         <li className="py-5 text-4xl">
           <Link
             to="about"
-            activeclassName="active"
+            activeClassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -127,7 +129,7 @@ const Header = () => {
         <li className="py-5 text-4xl">
           <Link
             to="skills"
-            activeclassName="active"
+            activeClassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -139,7 +141,7 @@ const Header = () => {
         <li className="py-5 text-4xl">
           <Link
             to="projects"
-            activeclassName="active"
+            activeClassName="active"
             spy={true}
             smooth={true}
             duration={500}
@@ -151,7 +153,7 @@ const Header = () => {
         <li className="py-5 text-4xl">
           <Link
             to="contact"
-            activeclassName="active"
+            activeClassName="active"
             spy={true}
             smooth={true}
             duration={500}

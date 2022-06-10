@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="bg-slate-700 w-full md:h-screen text-gray-300"
+      className="bg-slate-700 w-full md:h-screen text-gray-300 flex justify-center items-center"
     >
       <div className="max-w-1400 mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-center">
